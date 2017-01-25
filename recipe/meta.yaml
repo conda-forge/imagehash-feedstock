@@ -7,7 +7,7 @@ package:
 source:
   fn: imagehash-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/I/ImageHash/ImageHash-{{ version }}.tar.gz
-  md5: 0bf909b6d138768f80dd689be7bedaaa
+  sha256: ef6d2d9a8160dff57c2551dfea48b9437d3d674fcb4eaf39623be41c0672dc20
 
 build:
   number: 0
