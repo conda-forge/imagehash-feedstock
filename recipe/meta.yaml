@@ -5,18 +5,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: imagehash-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/I/ImageHash/ImageHash-{{ version }}.tar.gz
   sha256: d7d95534e32e7b9c949029cf9f8383f50fbc3f2246d030da9cd277a8a99d23a3
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - setuptools
