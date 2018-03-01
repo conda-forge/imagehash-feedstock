@@ -14,9 +14,7 @@ Summary: A Python Perceptual Image Hahsing Module
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/imagehash-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/imagehash-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/imagehash-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/imagehash-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/imagehash-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/imagehash-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/imagehash-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/imagehash-feedstock)
 
 Current release info
 ====================
