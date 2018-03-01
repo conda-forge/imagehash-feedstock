@@ -1,4 +1,4 @@
-{% set version = "3.1" %}
+{% set version = "4.0" %}
 
 package:
   name: imagehash
@@ -7,7 +7,7 @@ package:
 source:
   fn: imagehash-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/I/ImageHash/ImageHash-{{ version }}.tar.gz
-  sha256: ef6d2d9a8160dff57c2551dfea48b9437d3d674fcb4eaf39623be41c0672dc20
+  sha256: d7d95534e32e7b9c949029cf9f8383f50fbc3f2246d030da9cd277a8a99d23a3
 
 build:
   number: 0
