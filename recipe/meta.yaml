@@ -1,4 +1,4 @@
-{% set version = "4.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: imagehash
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/I/ImageHash/ImageHash-{{ version }}.tar.gz
-  sha256: d7d95534e32e7b9c949029cf9f8383f50fbc3f2246d030da9cd277a8a99d23a3
+  sha256: 978e25d3df66ae8fa4fb24542e46cea6d0724f02c0c760b2de4931a54d5c7482
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -34,7 +34,7 @@ about:
   license: BSD 2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A Python Perceptual Image Hahsing Module'
+  summary: A Python Perceptual Image Hahsing Module
 
 extra:
   recipe-maintainers:
