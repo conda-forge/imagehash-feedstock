@@ -3,13 +3,11 @@ About imagehash
 
 Home: https://github.com/JohannesBuchner/imagehash
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/imagehash-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python Perceptual Image Hahsing Module
-
-
 
 Current build status
 ====================
